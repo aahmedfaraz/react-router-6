@@ -6,15 +6,16 @@ This project is to learn and implement core concepts of react-router@6 beta vers
 
 npm i history@5 react-router-dom@6.0.0-beta.2
 
-# This is App Component
+# This is App Component - imports from 'react-router-dom'
 
-import { [**Importing necessary elements for routing from react-router-dom**]
-BrowserRouter as Router [**Main parent element to apply routing in all the child available**],
-Routes [**All Route elements will be defined in Routes component**],
-Route [**Each route will be defined in Route element along with react component**],
-Link [**Link element to redirect to any other link or change pages | WITHOUT ACTIVE CLASS PROPERTY**],
-NavLink [**NavLink element is same as Link element but | **WITH** ACTIVE CLASS PROPERTY**]
-}
+- import { [**Importing necessary elements for routing from react-router-dom**]
+- BrowserRouter as Router [**Main parent element to apply routing in all the child available**],
+- Routes [**All Route elements will be defined in Routes component**],
+- Route [**Each route will be defined in Route element along with react component**],
+- Link [**Link element to redirect to any other link or change pages | WITHOUT ACTIVE CLASS PROPERTY**],
+- NavLink [**NavLink element is same as Link element but | **WITH** ACTIVE CLASS PROPERTY**],
+- Outlet
+- } from 'react-router-dom'
 
 ## App (
 
@@ -39,6 +40,19 @@ NavLink [**NavLink element is same as Link element but | **WITH** ACTIVE CLASS P
 ### /Router
 
 ## )
+
+# These Hooks and elements must be used inside Router Context - imports from 'react-router'
+
+##### They are described below
+
+import {
+useParams,
+useNavigate,
+useLocation,
+useResolvedPath,
+useMatch,
+Outlet
+} from 'reac-router'
 
 # Hooks related to router
 
