@@ -14,7 +14,7 @@ npm i history@5 react-router-dom@6.0.0-beta.2
 - Route [**Each route will be defined in Route element along with react component**],
 - Link [**Link element to redirect to any other link or change pages | WITHOUT ACTIVE CLASS PROPERTY**],
 - NavLink [**NavLink element is same as Link element but | **WITH** ACTIVE CLASS PROPERTY**],
-- Outlet
+- Outlet [**This element is placed where to put child route elements of any parent route element**]
 - } from 'react-router-dom'
 
 ## App (
