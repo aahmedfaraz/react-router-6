@@ -8,30 +8,30 @@ npm i history@5 react-router-dom@6.0.0-beta.2
 
 # This is App Component
 
-import { <!-- Importing necessary elements for routing from react-router-dom -->
-BrowserRouter as Router, <!-- Main parent element to apply routing in all the child available -->
-Routes, <!-- All Route elements will be defined in Routes component -->
-Route, <!-- Each route will be defined in Route element along with react component -->
-Link, <!-- Link element to redirect to any other link or change pages | WITHOUT ACTIVE CLASS PROPERTY -->
-NavLink, <!-- NavLink element is same as Link element but | *WITH* ACTIVE CLASS PROPERTY -->
+import { [*Importing necessary elements for routing from react-router-dom*]
+BrowserRouter as Router [*Main parent element to apply routing in all the child available*],
+Routes [*All Route elements will be defined in Routes component*],
+Route [*Each route will be defined in Route element along with react component*],
+Link [*Link element to redirect to any other link or change pages | WITHOUT ACTIVE CLASS PROPERTY*],
+NavLink [*NavLink element is same as Link element but | *WITH* ACTIVE CLASS PROPERTY*]
 }
 
 App (
 <Router>
 ---<h1>This sentence will appear in every page</h1>
 ---<Routes>
-------<Route path="/" element={<Home/>} /> <!-- Home element will appear in url="/" -->
-------<Route path="about" element={<About/>} /> <!-- About element will appear in url="/about" -->
+------<Route path="/" element={<Home/>} /> [*Home element will appear in url="/"*]
+------<Route path="about" element={<About/>} /> [*About element will appear in url="/about"*]
 ---</Routes>
 </Router>
 )
 
 # Hooks related to router
 
-useParams(); <!-- Get parameters from url inside the component -->
-useNavigate(); <!-- Redirect to any url programmatically -->
-useLocation(); <!-- Get the current location of url | Uses only inside context of Router elemet -->
-useResolvedPath(); <!-- Get the resolved informantion in form of OBJECT from input url by like {pathname: "/about", search: "", hash: ""} | Uses only inside context of Router elemet -->
-useMatch(); <!-- It returns OBJECT {path: "products", pathname: "/products", params: {…}} if given URL matches with page url else it returns NULL -->
+useParams(); [*Get parameters from url inside the component*]
+useNavigate(); [*Redirect to any url programmatically*]
+useLocation(); [*Get the current location of url | Uses only inside context of Router elemet*]
+useResolvedPath(); [*Get the resolved informantion in form of OBJECT from input url by like {pathname: "/about", search: "", hash: ""} | Uses only inside context of Router elemet*]
+useMatch(); [*It returns OBJECT {path: "products", pathname: "/products", params: {…}} if given URL matches with page url else it returns NULL*]
 
 [Also refer: Getting started with React Router v6](https://github.com/remix-run/react-router/blob/dev/docs/installation/getting-started.md)
