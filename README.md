@@ -20,13 +20,19 @@ NavLink [**NavLink element is same as Link element but | **WITH** ACTIVE CLASS P
 
 ### <Router>
 
-##### <h1>This sentence will appear in every page</h1>
-
 #### <Routes>
 
 ##### <Route path="/" element={<Home/>} />
 
 ##### <Route path="about" element={<About/>} />
+
+##### <Route path="products" element={<Products />} >
+
+###### <Route path="/" element={<ProductIndex/>} /> [renders at /products | will also come with <Outlet/> inside Products comp]
+
+###### <Route path=":productID" element={<ProductDetails/>} /> [renders at /products/[id] | will also come with <Outlet/> inside Products comp]
+
+##### </Route>
 
 #### </Routes>
 
