@@ -16,16 +16,20 @@ Link [**Link element to redirect to any other link or change pages | WITHOUT ACT
 NavLink [**NavLink element is same as Link element but | **WITH** ACTIVE CLASS PROPERTY**]
 }
 
-> App (
-> <Router>
->
-> <h1>This sentence will appear in every page</h1>
-> <Routes>
-> <Route path="/" element={<Home/>} /> [**Home element will appear in url="/"**]
-> <Route path="about" element={<About/>} /> [**About element will appear in url="/about"**]
-> </Routes>
-> </Router>
-> )
+App (
+<Router>
+
+<h1>This sentence will appear in every page</h1>
+
+<Routes>
+
+<Route path="/" element={<Home/>} />
+<Route path="about" element={<About/>} />
+
+</Routes>
+
+</Router>
+)
 
 # Hooks related to router
 
