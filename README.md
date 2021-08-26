@@ -45,21 +45,23 @@ npm i history@5 react-router-dom@6.0.0-beta.2
 
 ##### They are described below
 
-import {
-useParams,
-useNavigate,
-useLocation,
-useResolvedPath,
-useMatch,
-Outlet
-} from 'reac-router'
+- import {
+- useParams,
+- useNavigate,
+- useLocation,
+- useResolvedPath,
+- useMatch,
+- Outlet
+- } from 'reac-router'
 
 # Hooks related to router
 
-useParams(); [**Get parameters from url inside the component**]
-useNavigate(); [**Redirect to any url programmatically**]
-useLocation(); [**Get the current location of url | Uses only inside context of Router elemet**]
-useResolvedPath(); [**Get the resolved informantion in form of OBJECT from input url by like {pathname: "/about", search: "", hash: ""} | Uses only inside context of Router elemet**]
-useMatch(); [**It returns OBJECT {path: "products", pathname: "/products", params: {…}} if given URL matches with page url else it returns NULL**]
+- useParams(); [**Get parameters from url inside the component**]
+- useNavigate(); [**Redirect to any url programmatically**]
+- useLocation(); [**Get the current location of url | Uses only inside context of Router elemet**]
+- useResolvedPath(); [**Get the resolved informantion in form of OBJECT from input url by like {pathname: "/about", search: "", hash: ""} | Uses only inside context of Router elemet**]
+- useMatch(); [**It returns OBJECT {path: "products", pathname: "/products", params: {…}} if given URL matches with page url else it returns NULL**]
 
-[Also refer: Getting started with React Router v6](https://github.com/remix-run/react-router/blob/dev/docs/installation/getting-started.md)
+# Read more here
+
+[Goto: Getting started with React Router v6](https://github.com/remix-run/react-router/blob/dev/docs/installation/getting-started.md)
