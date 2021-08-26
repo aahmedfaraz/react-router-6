@@ -1,4 +1,4 @@
-# My(Ahmed Faraz) notes on concepts of React Router v6-beta
+# Ahmed Faraz's notes on concepts of React Router @6.0.0-beta.2 version
 
 This project is to learn and implement core concepts of react-router@6 beta version which is going to include next version of react-router@5 and @reach/router
 
